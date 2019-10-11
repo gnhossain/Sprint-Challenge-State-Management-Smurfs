@@ -11,7 +11,7 @@ export const reducer = ( state = initialState, action) => {
         case GOT_SMURFS:
             return{
                 ...state,
-                smurf: action.payload
+                smurfs: action.payload
             };
             default:
                 return state;
